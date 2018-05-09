@@ -6,7 +6,7 @@ def alphabetize(arr)
   new_chars = []
 
   arr.sort_by do |sentence|
-    new_chars.split("")
+    new_chars = sentence.split("")
     new_chars.collect do |letter|
       e_array.index(letter)
     end
