@@ -1,4 +1,6 @@
 require 'pry'
 def alphabetize(arr)
-  # code here
+  e_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
+  
 end
