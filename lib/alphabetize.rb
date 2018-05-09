@@ -1,8 +1,16 @@
 require 'pry'
-e_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
+  e_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  e_array = e_alphabet.split("")
+  new_chars = []
 
-  e_phrase = arr.collect {|phrase| phrase.split("")}
-  
+  arr.sort_by do |sentence|
+    new_chars.split("")
+    new_chars.collect do |letter|
+      e_array.index(letter)
+    end
+  end
+
+
 end
